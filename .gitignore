@@ -4,4 +4,4 @@ npm-debug.log
 .env
 .DS_Store
 __tests__/coverage/**
-__tests__/*.sqlite
+__tests__/database.sqlite
