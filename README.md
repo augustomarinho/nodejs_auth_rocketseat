@@ -39,3 +39,9 @@
     yarn add factory-girl
 
     yarn add faker -D
+
+
+# Installing ESLINT
+    yarn add eslint -D
+    
+    npx eslint --init

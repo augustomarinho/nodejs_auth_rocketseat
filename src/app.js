@@ -1,8 +1,8 @@
-require('dotenv').config({
-   path: process.env.NODE_ENV === 'test' ? '.env.test' : '.env'
+require("dotenv").config({
+   path: process.env.NODE_ENV === "test" ? ".env.test" : ".env"
 });
 
-const express = require('express');
+const express = require("express");
 
 class AppController {
     constructor() {
@@ -16,7 +16,7 @@ class AppController {
     }
 
     routes() {
-        this.express.use(require('./routes'));
+        this.express.use(require("./routes"));
     }
 }
 
